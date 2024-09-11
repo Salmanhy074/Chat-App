@@ -12,7 +12,7 @@ This app lets registered users chat with others worldwide, ensuring a smooth and
 **If you find this project useful or interesting, don’t forget to star the repository on GitHub! Your support means a lot.**
 
 APK File: Download the latest APK file of this project and provide feedback 😃.
-[Download the APK](https://github.com/Salmanhy074/Attendance-System/raw/master/app-debug.apk)
+[Download the APK](https://github.com/Salmanhy074/Chat-App/blob/master/app-debug.apk)
 
 
 
@@ -60,17 +60,14 @@ This Global Chat Application allows users to chat with people from around the gl
 ## Screenshots
 
 <p align="center" style="overflow-x: auto; white-space: nowrap;">
-    <img src="https://github.com/user-attachments/assets/78d5d9ec-7e73-4483-94ee-e3af59145cf3" alt="Screenshot 1" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/ec8725b1-31fc-4203-bd23-433947fca929" alt="Screenshot 2" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/397dde26-d24e-41e9-8055-e8c8e595adfd" alt="Screenshot 3" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/9914ba6e-4907-4ac6-9aab-f49f85191f04" alt="Screenshot 4" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/868f3acc-f9f0-45ea-a4e2-427f2a3cd433" alt="Screenshot 5" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/26e786b7-5fff-468d-bb3c-46dda3d1f248" alt="Screenshot 6" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/b2264729-3a20-4809-b03b-af8f485dab3b" alt="Screenshot 7" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/b4ad747b-cb91-4321-ad3e-e6f67c792f4c" alt="Screenshot 8" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/ef538e10-d5db-4b0a-a1d9-903b0bc50f12" alt="Screenshot 9" width="200" style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/80d5e84d-9fa9-4328-a429-d9d7679c6222" alt="Screenshot 10" width="200" style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/029d2d08-e93c-43f6-a006-51df80a8c872" alt="Screenshot 1" width="200" style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/b9827603-aa5a-410f-9269-764d0a5f6d6f" alt="Screenshot 2" width="200" style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/d8e9227a-3ec1-4c1f-bad6-0b3aaa86acf3" alt="Screenshot 3" width="200" style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/e7b1e98a-9f7a-413e-b3bf-df1cdb3ec557" alt="Screenshot 4" width="200" style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/35973364-2b6c-47bf-9341-5292e1cdbdfa" alt="Screenshot 5" width="200" style="display:inline-block;">
 </p>
+
+
 
 
 ## Contributing
