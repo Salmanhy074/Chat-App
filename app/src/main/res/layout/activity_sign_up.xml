@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/signup"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Sign Up"
+            android:gravity="center_horizontal"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_marginVertical="30dp"
+            app:cardElevation="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/card">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="Enter your Name"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:padding="15dp"
+                    android:drawableStart="@drawable/nameimg"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:autofillHints="name"
+                    android:background="@drawable/shape"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="Enter your Email"
+                    android:padding="15dp"
+                    android:drawableStart="@drawable/emailimg"
+                    android:drawablePadding="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:autofillHints="emailAddress"
+                    android:background="@drawable/shape"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPasswordLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:background="@drawable/shape"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints="password"
+                        android:background="@drawable/shape"
+                        android:drawableStart="@drawable/passwordimg"
+                        android:drawablePadding="8dp"
+                        android:hint="Enter Password"
+                        android:inputType="textPassword"
+                        android:padding="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textColorHint="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    android:backgroundTint="#2A278F"
+                    android:layout_gravity="center_horizontal"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/signUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:backgroundTint="#EDF0FE"
+                    android:background="@drawable/shape"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:padding="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/txtLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Already have an account? Login"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginHorizontal="10dp"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
